@@ -7,5 +7,7 @@ function prt(str)
     document.write(str);
 }
 var i;
-for (i=0;i<100;i--)
+for (i=0;i<100;i++) {
 	window.alert("再按"+(100-i)+"下lsm大佬就放你出去");
+}
+	

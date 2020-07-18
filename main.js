@@ -6,4 +6,6 @@ function prt(str)
 {
     document.write(str);
 }
-window.alert("你是怎么进来的??");
+var i;
+for (i=0;i<100;i=i++)
+	window.alert("再按"+(100-i)+"下lsm大佬就放你出去");

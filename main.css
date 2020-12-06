@@ -1,10 +1,7 @@
-body
-{
-    background-color:skyblue;
+.block{
+    margin:200px;
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    border-color: brown;
 }
-a 
-{
-    color : slategray;
-    font-family:微软雅黑;
-}
-

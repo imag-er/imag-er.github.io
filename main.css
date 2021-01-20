@@ -1,7 +1,12 @@
-.block{
-    margin:200px;
-    width: auto;
-    height: auto;
-    background-color: aqua;
-    border-color: brown;
+.main{
+    margin: auto;
+    position: sticky;
+    background-color:white;
+    
+}
+#inputbox
+{
+    margin:auto;
+    position: absolute;
+    background-color: gray;
 }

@@ -4,15 +4,17 @@ function up()
     var mv=document.getElementById("mv");
     if (!cnt)
     {
+        //close
         mv.style.left="110px";
-        mv.parentElement.style.background="gray";
+        mv.parentElement.style.background="#65C466";
         mv.style.width="80px";
         cnt=1;
     }
     else
     {
+        //open
         mv.style.left="10px";
-        mv.parentElement.style.background="azure";
+        mv.parentElement.style.background="#E9E9EA";
         mv.style.width="80px";
         cnt=0;
     }

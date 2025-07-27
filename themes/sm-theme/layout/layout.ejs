@@ -1,0 +1,34 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/layout.css">
+</head>
+
+<body>
+    <title>Quoilam's blog</title>
+
+    <div class="banner">
+        <a id="quoilam-logo" class="main-text" href="<%= url_for('/') %>">quoilam</a>
+    </div>
+
+    <div class="tags-wrapper">
+        <div class="tags">
+            <span>tags: </span>
+            <% site.tags.forEach(function(tag) { %>
+                <span class="tag">
+                    <a href="<%= url_for(tag.path) %>">
+                        <%= tag.name %>
+                    </a>
+                </span>
+                <% }); %>
+        </div>
+    </div>
+    <%- body %>
+</body>
+
+</html>

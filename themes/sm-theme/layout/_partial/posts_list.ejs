@@ -1,0 +1,22 @@
+<% let largerYear=0; %>
+    <% site.posts.sort('date', -1).forEach(function(post) { %>
+        <% const year=post.date.year(); %>
+            <% if (largerYear !==year) { %>
+                <div class="year-split">
+                    <div class="line"></div>
+                    <div class="year-text">
+                        <%= year %>
+                    </div>
+                </div>
+                <% } %>
+                    <div>
+                        <span class="date">
+                            <%= date(post.date, "MMM DD" ) %>
+                        </span>
+                        <a href="<%= url_for(post.path) %>">
+                            <%= post.title %>
+                        </a>
+                    </div>
+
+                    <% largerYear=year; %>
+                        <% }); %>

@@ -1,0 +1,30 @@
+.main-text {
+  font-family: monospace;
+/*color #c87f7f*/
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: table;
+  color: #4183c4;
+  font-size: 5em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.tags-wrapper {
+  width: 100%;
+}
+.tags-wrapper .tags {
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 375px;
+  list-style: none;
+  line-height: 1.7em;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  font-family: Monaco;
+
+}

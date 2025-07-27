@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/css/tag.css">
+
+<div class="posts-wrapper">
+    <div class="posts">
+
+        <a disabled>Articles of tag <%- page.tag %>:</a>
+
+        <% let largerYear=0; %>
+            <% site.posts.filter((post)=> post.tags.data.find(item=>item.name == page.tag)).forEach(function(post) {
+                %>
+
+                <% const year=post.date.year(); %>
+                    <% if (largerYear !==year) { %>
+                        <div class="year-split">
+                            <div class="line"></div>
+                            <div class="year-text">
+                                <%= year %>
+                            </div>
+                        </div>
+                        <% } %>
+                            <div>
+                                <span class="date">
+                                    <%= date(post.date, "MMM DD" ) %>
+                                </span>
+                                <a href="<%= url_for(post.path) %>">
+                                    <%= post.title %>
+                                </a>
+                            </div>
+
+                            <% largerYear=year; %>
+                                <% }); %>
+
+
+    </div>
+</div>

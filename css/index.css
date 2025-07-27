@@ -1,0 +1,59 @@
+body {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+body a {
+  text-decoration: none;
+  color: #4183c4;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+.posts-wrapper {
+  width: 100%;
+}
+
+.posts-wrapper .posts {
+  display: block;
+  margin: auto;
+  text-align: left;
+  width: 375px;
+  list-style: none;
+  line-height: 1.7em;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  font-family: Monaco;
+}
+
+.posts-wrapper .posts .date {
+  margin-left: 7px;
+  margin-right: 14px;
+  color: #888;
+  width: 60px;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+}
+  
+.year-split {
+  width: 110%;
+  position: relative;
+  left: -5%;
+  margin: 20px 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #888;
+  text-align: center;
+}
+
+.year-split .line {
+  margin-top: -3px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #888 30%, #888 70%, transparent);
+}

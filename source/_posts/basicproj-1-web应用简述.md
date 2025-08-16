@@ -58,3 +58,10 @@ date: 2025-08-15 14:22:04
 项目实现了两个功能,以及关键技术点
 1. 注册、登陆 (jwt orm)
 2. 发布文章、获取文章、点赞文章 (api redis)
+
+### 4.导航
+[basicproj 1 web应用简述](https://imag-er.github.io/2025/08/15/basicproj-1-web%E5%BA%94%E7%94%A8%E7%AE%80%E8%BF%B0/)
+[basicproj 2 config配置部分](https://imag-er.github.io/2025/08/15/basicproj-2-config%E9%85%8D%E7%BD%AE%E9%83%A8%E5%88%86/)
+[basicproj 3 dal数据访问部分](https://imag-er.github.io/2025/08/15/basicproj-3-dal%E6%95%B0%E6%8D%AE%E8%AE%BF%E9%97%AE%E9%83%A8%E5%88%86/)
+[basicproj 4 handler网络请求处理](https://imag-er.github.io/2025/08/15/basicproj-4-handler%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E5%A4%84%E7%90%86/)
+[basicproj 5 测试、工具](https://imag-er.github.io/2025/08/15/basicproj-5-%E6%B5%8B%E8%AF%95%E3%80%81%E5%B7%A5%E5%85%B7/)
